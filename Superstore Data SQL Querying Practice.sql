@@ -1,3 +1,6 @@
+--The below queries were created throughout my General Assembly Data Analytics course. These queries were used in and out of class as practice and skills training.
+--These are queries made on the commonly-used Superstore data set. A copy of the data can be found here: https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
+
 --How many orders are missing zip/postal codes by region?
 SELECT reg.region, COUNT(*)
 FROM orders o
